@@ -1,6 +1,14 @@
-div,input,textarea {
+@font-face{
+    font-family:'작명!!!';
+    src : url()
+    /*font-weight : 800;*/
+    font-family: 'gulim';
+}
+
+/*div,input,textarea {
     box-sizing: border-box;
 }
+*/
 
 body {
     margin: 0px;
@@ -185,4 +193,31 @@ input-test {
 }
 .custom-link:visited{
     color:black;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 5px;
+}
+
+.flex-container {
+    display: flex;
+    /*justify-content: center;*/
+    /*flex-direction: column*/
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-item {
+    margin-right: 10px;
 }
