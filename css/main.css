@@ -221,3 +221,27 @@ input-test {
 .nav-item {
     margin-right: 10px;
 }
+
+.test {
+    width: 10rem;
+    height: 50vh;
+    background: grey;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-title{
+        font-size: 30px
+    }
+    .nav-item{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-title{
+        font-size: 20px
+    }
+    .nav-item{
+        font-size: 12px;
+    }
+}
