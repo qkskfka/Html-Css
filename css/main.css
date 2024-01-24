@@ -1,3 +1,17 @@
+
+body {
+  margin: 0;
+}
+div {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 22px;
+}
+
 @font-face{
     font-family:'작명!!!';
     src : url()
@@ -10,9 +24,6 @@
 }
 */
 
-body {
-    margin: 0px;
-}
 
 .profile {
 width: 100px; 
@@ -31,13 +42,17 @@ margin-right: auto;
 }
 
 .main-background{
-    width: 100%;
+    /*width: 100%;
     height: 500px;
     background-image: url(../img/shoes.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 1px;
+    padding: 1px;*/
+    background-image: linear-gradient(to bottom, #499add, #4e61c0);
+    height: 550px;
+    padding: 20px;
+    color: white;
 }
 
 .main-title{
@@ -329,4 +344,20 @@ input-test {
     background-color: rgba(0,0,0,0.3);
     margin-top:100%;
     transition: all 1s;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-text {
+    float: left;
+    margin-top: 50px;
+}
+
+.main-iphone {
+    width: 400px;
+  float: right;
+  margin-top: 95px;
 }
