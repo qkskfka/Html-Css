@@ -370,3 +370,17 @@ input-test {
   float: right;
   margin-top: 95px;
 }
+@media screen and (max-width : 992px) {
+  .main-iphone {
+    width: 260px;
+    display: block;
+    float: none;
+    margin: auto;
+    margin-top: 42px;
+  }
+  .main-text {
+    float: none;
+    margin-top: 50px;
+    text-align: center;
+  }
+}
