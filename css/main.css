@@ -384,3 +384,32 @@ input-test {
     text-align: center;
   }
 }
+
+/*큰 레이아웃*/
+.service {
+  background-color: #4e61c0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 60px 30px 50px 30px;
+}
+.service-items {
+  display: flex;
+}
+.service-items div {
+  width: 25%;
+}
+
+/*나머지 쓸데없는 디자인들*/
+.service h5 {
+  margin-bottom: 0px;
+}
+.service-icon {
+  background: white;
+  color: #4e61c0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 15px;
+}
